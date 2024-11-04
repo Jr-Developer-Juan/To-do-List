@@ -19,4 +19,5 @@ Bienvenido a la aplicación de To-Do List, un espacio digital donde puedes organ
 - **Tailwind CSS**: Framework de CSS que permite un diseño personalizado y eficiente.
 - **React Hot Toast**: Para notificaciones elegantes y funcionales.
 - **JSONPlaceholder**: API falsa para probar y simular operaciones CRUD.
+- ------
 
