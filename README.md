@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+# To-Do List App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a la aplicación de To-Do List, un espacio digital donde puedes organizar tus tareas de manera sencilla y efectiva. Diseñada para quienes buscan optimizar su productividad con un toque futurista, esta aplicación está construida con las tecnologías más modernas.
 
-Currently, two official plugins are available:
+## 🌟 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interfaz Atractiva:** Diseñada con NextUI y Tailwind CSS, con un estilo gamer que hará que cada interacción sea emocionante.
+- **Gestión de Tareas:** Agrega, elimina y marca tareas como completadas con facilidad.
+- **Modal Dinámico:** Agrega nuevas tareas a través de un modal elegante que mejora la experiencia del usuario.
+- **Notificaciones en Tiempo Real:** Recibe retroalimentación instantánea al agregar o eliminar tareas.
+- **Integración con API:** Consume datos de la API JSONPlaceholder para simular un entorno real de gestión de tareas.
+- **Estilo Personalizado:** Todo el estilo está basado en una paleta de colores y fuentes modernas para un ambiente envolvente.
 
-## Expanding the ESLint configuration
+## 🔧 Tecnologías Usadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Librería para construir interfaces de usuario.
+- **TypeScript**: Superconjunto de JavaScript que proporciona tipado estático.
+- **NextUI**: Librería de componentes que proporciona una experiencia de usuario suave y moderna.
+- **Tailwind CSS**: Framework de CSS que permite un diseño personalizado y eficiente.
+- **React Hot Toast**: Para notificaciones elegantes y funcionales.
+- **JSONPlaceholder**: API falsa para probar y simular operaciones CRUD.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
