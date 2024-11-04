@@ -20,4 +20,14 @@ Bienvenido a la aplicación de To-Do List, un espacio digital donde puedes organ
 - **React Hot Toast**: Para notificaciones elegantes y funcionales.
 - **JSONPlaceholder**: API falsa para probar y simular operaciones CRUD.
 - ------
+## Cómo Descargar el Proyecto Localmente
+
+Para descargar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. **Clonar el Repositorio**:
+   Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio:
+
+   ```bash
+   (https://github.com/Jr-Developer-Juan/To-do-List.git)
+
 
